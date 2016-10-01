@@ -22,7 +22,7 @@
         $dbhost = 'localhost';
         $username = 'root';
         $password = '';
-        $dbname = 'fit-rasbi';
+        $dbname = 'fit-raspi';
         
 // Create connection
 $conn = new mysqli($dbhost, $username, $password, $dbname);
