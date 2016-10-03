@@ -35,13 +35,13 @@ class CL_Athlete
         
         
         // Constructors------------------------------------------------------------------------------------------------------------
-        function __construct($nickname, $email, $sex, $weight, $new_height, $birthday)
+        function __construct($nickname, $email, $sex, $weight, $height, $birthday)
         {
             $this->nickname = $nickname;
             $this->email = $email;
             $this->sex = $sex;
             $this->weight = $weight;
-            $this->height = $new_height;
+            $this->height = $height;
             $this->birthday = $birthday;
             $this->age = CL_Athlete::calc_age($birthday);
         }
