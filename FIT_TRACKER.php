@@ -21,7 +21,7 @@
         $bool = false;
         $dbhost = 'localhost';
         $username = 'root';
-        $password = '';
+        $password = 'rootroot';
         $dbname = 'fit-raspi';
         
 // Create connection
@@ -77,7 +77,7 @@ if ($bool = true)
    {
         $dbhost = 'localhost';
         $username = 'root';
-        $password = '';
+        $password = 'rootroot';
         $dbname = 'fit-rasbi';
         
 // Create connection
