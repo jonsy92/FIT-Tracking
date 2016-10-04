@@ -6,8 +6,9 @@
         <title>FIT-Tracking</title>   
     </head>
     <body>
-<?php
-//
+ <div>
+            <h1>Passwort Zurücksetzung</h1>
+        <?php
 //$servername = "localhost";
 //$username = "root";
 //$password = "rootroot";
@@ -19,8 +20,8 @@
 //if (!$conn) {
 //    die("Connection failed: " . mysqli_connect_error());
 //}
-echo "<div><h1>Coming soon</h1></div>";
-?>
-    </<body>
+        echo("Coming Soon! ;)")
+        ?>
+        </div>
+</body>
 </html>
-

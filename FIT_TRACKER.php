@@ -31,7 +31,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 
- $sql = "INSERT INTO User (Name, Size, Birthdate, Sex, Email) VALUES ('$name' , '$size' , '$birthdate' , '$sex' , '$email')";
+ $sql = "INSERT INTO user (Name, Size, Birthdate, Sex, Email) VALUES ('$name' , '$size' , '$birthdate' , '$sex' , '$email')";
 
 if ($conn->query($sql) === TRUE) {
     $bool = true;
@@ -40,7 +40,7 @@ if ($conn->query($sql) === TRUE) {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
 
-$sql = ("select UID from User where Name ='$name' ");
+$sql = ("select UID from user where Name ='$name' ");
 
 $result = $conn->query($sql);
 $row = $result->fetch_assoc();
@@ -48,7 +48,7 @@ $id = $row["UID"];
 
 //var_dump(mysqli_error());
 
- $sql = "INSERT INTO Stats (UID, Weight, Kfa, Ffmi, Picture) VALUES ('$id', '$weight', '$kfa', '$ffmi', 'NotFound')";
+ $sql = "INSERT INTO stats (UID, Weight, Kfa, Ffmi, Picture) VALUES ('$id', '$weight', '$kfa', '$ffmi', 'NotFound')";
 
 if ($conn->query($sql) === FALSE) {
  
@@ -57,7 +57,7 @@ if ($conn->query($sql) === FALSE) {
 }
 // Pasword Hash
 $hashpw = md5($pw);
- $sql = "INSERT INTO Password (UID, Passwordtext) VALUES ('$id', '$hashpw')";
+ $sql = "INSERT INTO password (UID, Passwordtext) VALUES ('$id', '$hashpw')";
 
 if ($conn->query($sql) === TRUE) {
     $bool = false;
@@ -88,13 +88,13 @@ if ($conn->connect_error) {
 }    
 
 
-$sql = ("select UID from User where Name ='$name' ");
+$sql = ("select UID from user where Name ='$name' ");
 
 $result = $conn->query($sql);
 $row = $result->fetch_assoc();
 $uid= $row["UID"];   
 
-$sql = ("select Passwordtext from Password where UID ='$uid' ");
+$sql = ("select Passwordtext from password where UID ='$uid' ");
 
 $result = $conn->query($sql);
 $row = $result->fetch_assoc();

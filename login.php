@@ -23,7 +23,8 @@ if($fit->check_input($nickname, $hashpw))
  else 
 {
    $fit->check_input($nickname, $hashpw);
-   echo ("<p>Ihr Benutzername oder Passwort ist leider falsch.</p>") ;  
+   echo ("<div><p>Ihr Benutzername oder Passwort ist leider falsch.</p></div>") ; 
+   
  }
 
  ?>
