@@ -5,7 +5,7 @@
  
         <title>FIT-Tracking</title>    
        
-        <script type="text/javascript">
+<!--        <script type="text/javascript">
             function updatetextInputS(val)
             {
                 document.getElementById('textInputSize').value=val;
@@ -24,7 +24,7 @@
             {
                 document.getElementById('textInputKfa').value=val;
             }
-        </script>
+        </script>-->
     </head>
     
     <body>
@@ -52,17 +52,17 @@
             
               <tr>
                 <td>   Größe(cm):</td><td><input type="text" id="textInputSize" name="size" value="" >
-                                       <input  type="range" name="rangeInput" min="100" max="220" value="170" onchange="updatetextInputS(this.value);"></td>                                  
+<!--                                       <input  type="range" name="rangeInput" min="100" max="220" value="170" onchange="updatetextInputS(this.value);"></td>                                  -->
             </tr>  
             
             <tr>
                 <td>   Gewicht(kg):</td><td><input type="text" id="textInputWeight" name="weight" value="" >
-                                       <input  type="range" name="rangeInput" min="30" max="220" value="70" onchange="updatetextInputW(this.value);"></td>                                  
+<!--                                       <input  type="range" name="rangeInput" min="30" max="220" value="70" onchange="updatetextInputW(this.value);"></td>                                  -->
             </tr>  
             
              <tr>
                 <td>   Körperfettanteil(%):</td><td><input type="text" id="textInputKfa" name="kfa" value="" >
-                                       <input  type="range" name="rangeInput" min="1" max="100" value="20" onchange="updatetextInputK(this.value);"></td>                                  
+<!--                                       <input  type="range" name="rangeInput" min="1" max="100" value="20" onchange="updatetextInputK(this.value);"></td>                                  -->
             </tr>  
        
             <tr>

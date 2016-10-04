@@ -10,6 +10,7 @@ and open the template in the editor.
  body {
                     background-image: url("Ressourcen/hulk.jpg");
                     background-repeat: no-repeat;
+                    background-size: auto;
                     color: chartreuse; 
                     font-size:20px;
                     font-family:Oswald;
@@ -21,8 +22,8 @@ and open the template in the editor.
             }
                  
         div{   
-                  margin-top: 1px; 
-                  margin-left: 150px; 
+                  margin-top: 5%; 
+                  margin-left: 5%; 
             }
    
             

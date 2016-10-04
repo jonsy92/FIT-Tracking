@@ -15,7 +15,7 @@ and open the template in the editor.
         <div>   
         <table border="0" align="left">
         <form action="login.php" method="post">
-            <tr><td></td><td><h1>Login</h1></td></tr>
+            <tr><td></td></td><td><h1>Login</h1></td></tr>
             <tr>     
                 <td>   Nutzername:</td><td><input type="text" name="nickname" ></td>
             </tr>
