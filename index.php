@@ -11,11 +11,11 @@ and open the template in the editor.
     </head>
     
     <body>
-        
         <div>   
+             <h1 align = "center"> Fit-Tracker </h1>
         <table border="0" align="left">
         <form action="login.php" method="post">
-            <tr><td></td></td><td><h1>Login</h1></td></tr>
+            <tr><td></td></td><td><h2>Login</h2></td></tr>
             <tr>     
                 <td>   Nutzername:</td><td><input type="text" name="nickname" ></td>
             </tr>

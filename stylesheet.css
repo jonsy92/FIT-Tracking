@@ -8,28 +8,26 @@ and open the template in the editor.
     Author     : jonas.niedrig
 */
  body {
-                    background-image: url("Ressourcen/hulk.jpg");
+                    background-image: url("Ressourcen/hulk_background.jpg");
                     background-repeat: no-repeat;
-                    background-size: auto;
+                    background-size: 100%;
                     color: chartreuse; 
                     font-size:20px;
-                    font-family:Oswald;
+                    font-family:sans-serif;
                     font-weight:bold;  
        }
                  
-        h1{
-                    color: chartreuse ;
-            }
                  
         div{   
-                  margin-top: 5%; 
-                  margin-left: 5%; 
+                  margin-left: 1%; 
+                  margin-top: 2%;
             }
    
             
         table
             { 
-                background-color:rgba(255,255,255,0.1);
+                border-color: chartreuse;
+                background-color:rgba(255,255,255,0.03);
             }
             
        td{

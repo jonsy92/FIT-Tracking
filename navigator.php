@@ -12,8 +12,6 @@
         <?php
         echo("Herzlich Willkommen!!")
         ?>
-            
-            
         </div>
     </body>
 </html>

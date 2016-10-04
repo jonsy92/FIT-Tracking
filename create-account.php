@@ -30,9 +30,10 @@
     <body>
         
         <div main>   
+            <h1 align = "center"> Fit-Tracker </h1>
         <table border="0" align="left">
         <form action="account-coding.php" method="post">
-            <tr><td></td><td><h1>Neuer Account</h1></td></tr>
+            <tr><td></td><td><h2>Neuer Account</h2></td></tr>
             
             <tr>     
                 <td>   Nutzername:</td><td><input type="text" name="nickname" ></td>
